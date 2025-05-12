@@ -1,2 +1,8 @@
 # Stock_predict
-股价日线预测，尝试了RNN和线性回归，SVM，随机森林等传统机器学习算法
+股价日线预测，尝试了RNN和线性回归，SVM，随机森林等传统机器学习算法，使用的是苹果公司的日线数据。
+
+random_forest.py和svm_iris.py，使用iris数据集熟悉随机森林和svm流程
+
+train.py使用LSTM进行预测，并可视化预测结果
+
+train_linear_regression,train_random_forest和train_svm分别是用线性回归，随机森林和svm预测
